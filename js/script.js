@@ -24,7 +24,7 @@ $(document).ready(function () {
     });
 });
 
-// Basic function to insert content from content.js into 
+// Basic function to inject content from content.js into 
 // language-info-box element on page
 function insert (id){
     $('.language-info-box').html(content[id][0]);
