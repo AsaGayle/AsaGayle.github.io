@@ -1,25 +1,25 @@
 content={
-    "C++":["<p class='Inconsolata language-info'>\
-           This is C++\
+    "C++":["<p class='Bowlby language-info'>\
+           C++\
            </p>"],
     
-    "python":["<p class='Inconsolata language-info'>\
-            This is Python\
+    "python":["<p class='Bowlby language-info'>\
+            Python\
             </p>"],
     
-    "JavaScript":["<p class='Inconsolata language-info'>\
-            This is JavaScript\
+    "JavaScript":["<p class='Bowlby language-info'>\
+            JavaScript\
             </p>"],
     
-    "HTML":["<p class='Inconsolata language-info'>\
-            This is HTML\
+    "HTML":["<p class='Bowlby language-info'>\
+            HTML5\
             </p>"],
     
-    "CSS":["<p class='Inconsolata language-info'>\
-            This is CSS\
+    "CSS":["<p class='Bowlby language-info'>\
+            CSS3\
             </p>"],
     
-    mySQL:["<p class='Inconsolata language-info'>\
-            This is MySQL\
+    mySQL:["<p class='Bowlby language-info'>\
+            MySQL\
             </p>"]
 };

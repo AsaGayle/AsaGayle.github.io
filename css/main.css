@@ -10,9 +10,11 @@
 }
 
 .Inconsolata{
-    font-family: 'Inconsolata'
+    font-family: 'Inconsolata';
 }
-
+.Bowlby{
+    font-family: 'Bowlby One SC';
+}
 /*********************
         HEADER
 *********************/
@@ -22,6 +24,7 @@
     text-align: center;
     z-index: -2;
     background-color: #000;
+    background: url(../img/CityBG.jpg) top;
 }
 
 #head-text{
@@ -32,6 +35,9 @@
     color: #fff;
 }
 
+#title-word{
+    font-size: 60px;
+}
 /********************
         BODY
 ********************/
@@ -56,13 +62,13 @@
     height: 200px;
 }
 .current-item{
-    margin: 50px 30px;
-    width:150px;
-    display: inline-block
+    margin: 50px 10px;
+    width:125px;
+    display: inline-block;
 }
 .current-item img{
     margin-top: -45px;
-    width:150px;
+    width:125px;
 }
 .language-info-box{
     background-color: darkgray;
@@ -71,7 +77,7 @@
     margin: auto;
 }
 .language-info{
-    font-size: 20px;
+    font-size: 85px;
     color: #fff;
 }
 /********************
@@ -84,7 +90,7 @@ footer{
 }
 
 /*******************
-      ANIMATIONS
+    JS ANIMATIONS
 *******************/
 .zoom {
     width: 110px;
