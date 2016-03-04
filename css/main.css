@@ -1,14 +1,15 @@
 *{
     margin: 0;
 }
-
 /********************
         FONTS   
 ********************/
 .Oswald{
     font-family: 'Oswald';
 }
-
+.Abel{
+    font-family: 'Abel';
+}
 .Inconsolata{
     font-family: 'Inconsolata';
 }
@@ -26,7 +27,6 @@
     background-color: #000;
     background: url(../img/CityBG.jpg) top;
 }
-
 #head-text{
     text-align: center;
     width: 100%;
@@ -34,7 +34,6 @@
     margin-top: -200px;
     color: #fff;
 }
-
 #title-word{
     font-size: 60px;
 }
@@ -49,17 +48,20 @@
 
 .body-words{
     font-size: 15px;
-    width: 50%;
-    display: inline-block;
+    text-align: center;
+    align-content: center;
+    clear: both;
+    margin:15px 4px;
 }
 .sub-header{
     font-size: 40px;
     padding: 20px 0px 20px 0px;
 }
 #current-skills{
-    width:70%;
+    width:500px;
     display: inline-block;
-    height: 200px;
+    clear: right;
+    height: 400px;
 }
 .current-item{
     margin: 50px 10px;
@@ -71,23 +73,57 @@
     width:125px;
 }
 .language-info-box{
-    background-color: darkgray;
-    height:400px;
-    width: 900px;
+    height:70px;
+    width: 200px;
     margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    clear: left;
 }
 .language-info{
-    font-size: 85px;
-    color: #fff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #090B0B;
+    float: left;
+    clear: right;
 }
+.course-list{
+    margin: 8px;
+}
+
+.course-title{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+li{
+    margin-left: -50px;
+    list-style-type: none;
+}
+
 /********************
         FOOTER
 ********************/
 footer{
     margin-top: 20px;
-    height:250px;
-    background: red;
+    width:100%;
+    height:350px;
+    background: #090B0B;
+    color:#fff;
+    text-align: center;
 }
+
+.icons{
+    padding: 7px;
+}
+
+.icon-box{
+    width: 240px;
+}
+
 
 /*******************
     JS ANIMATIONS
@@ -108,3 +144,82 @@ footer{
 .faded{
     opacity: 0.5;
 }
+
+/*********************************
+            ICONS
+*********************************/
+    /***************************
+         Facebook ICON
+    ***************************/
+    #face{font-size: 40px;}
+    #face .no-fade {
+        color: white;
+        float:left;
+        margin-bottom: 10px;
+    }
+    #face .no-fade:hover {
+        color: #3b5998;
+        -webkit-transition: all 0.35s ease;
+        -moz-transition: all 0.35s ease;
+        -o-transition: all 0.35s ease;
+    }
+    /***************************
+            twitter ICON
+    ***************************/
+    #twit{font-size: 40px;}
+    #twit .no-fade {
+        color: white;
+        float:left;
+        margin-bottom: 10px;
+    }
+    #twit .no-fade:hover {
+        color: #00aced;
+        -webkit-transition: all 0.35s ease;
+        -moz-transition: all 0.35s ease;
+        -o-transition: all 0.35s ease;
+    }
+    /***************************
+         linkedIn ICON
+    ***************************/
+    #linked{font-size: 40px}
+    #linked .no-fade {
+        color: white;
+        float:left;
+        margin-bottom: 10px;
+    }
+    #linked .no-fade:hover {
+        color: #007bb6;
+        -webkit-transition: all 0.35s ease;
+        -moz-transition: all 0.35s ease;
+        -o-transition: all 0.35s ease;
+    }
+    /***************************
+           github ICON
+    ***************************/
+    #git{font-size: 40px}
+    #git .no-fade {
+        color: white;
+        float:left;
+        margin-bottom: 10px;
+    }
+    #git .no-fade:hover {
+        color: #6C196C;
+        -webkit-transition: all 0.35s ease;
+        -moz-transition: all 0.35s ease;
+        -o-transition: all 0.35s ease;
+    }
+    /***************************
+           blogger ICON
+    ***************************/
+    #mail{font-size: 40px}
+    #mail .no-fade {
+    color: white;
+    float:left;
+    margin-bottom: 10px;
+    }
+    #mail .no-fade:hover {
+        color: #fb8f3d;
+        -webkit-transition: all 0.35s ease;
+        -moz-transition: all 0.35s ease;
+        -o-transition: all 0.35s ease;
+    }
