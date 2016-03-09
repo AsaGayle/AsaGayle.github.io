@@ -25,7 +25,11 @@ var button = document.getElementById("resume-button");
 
 button.addEventListener("click", function(){
     this.innerHTML = this.innerHTML.replace("Resume","Here you go!");
+    
+    setTimeout(changeText, 2000);
     }
 );
 
-var isPalindrome => 
+function changeText(){
+  button.innerHTML = button.innerHTML.replace("Here you go!", "Resume");
+};

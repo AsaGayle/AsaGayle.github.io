@@ -2,12 +2,8 @@
     margin: 0;
 }
 
-button:focus{
-    outline: none;
-}
-
-a:visited{
-    
+html{
+	-webkit-tap-highlight-color:transparent;
 }
 /********************
         FONTS   
@@ -106,7 +102,6 @@ a:visited{
     font-size: 20px;
     font-weight: bolder;
 }
-
 li{
     margin-left: -50px;
     list-style-type: none;
@@ -163,16 +158,6 @@ footer{
 }
 .faded{
     opacity: 0.5;
-}
-
-#elusive-text{
-    text-decoration: none;
-    color: #5c448c;
-}
-
-#atom-text{
-    text-decoration: none;
-    color:#D6250A;
 }
 
 /*********************************
