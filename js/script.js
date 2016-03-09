@@ -20,3 +20,12 @@ $(document).ready(function () {
 function insert (id){
     $('.language-info-box').html(content[id][0]);
 }
+
+var button = document.getElementById("resume-button");
+
+button.addEventListener("click", function(){
+    this.innerHTML = this.innerHTML.replace("Resume","Here you go!");
+    }
+);
+
+var isPalindrome => 

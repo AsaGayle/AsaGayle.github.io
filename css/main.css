@@ -58,6 +58,7 @@
     padding: 20px 0px 20px 0px;
 }
 #current-skills{
+    position:relative;
     width:500px;
     display: inline-block;
     clear: right;
@@ -93,15 +94,23 @@
 .course-list{
     margin: 8px;
 }
-
 .course-title{
     font-size: 20px;
     font-weight: bolder;
 }
-
 li{
     margin-left: -50px;
     list-style-type: none;
+}
+#resume-button{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #181818  ;
+    border-radius: 180px;
+    border:none;
+    color: #fff;
+    cursor:pointer;hand;
 }
 
 /********************
@@ -110,12 +119,14 @@ li{
 footer{
     margin-top: 20px;
     width:100%;
-    height:350px;
+    height:200px;
     background: #090B0B;
     color:#fff;
     text-align: center;
 }
-
+.footer-text{
+    font-size: 16px;
+}
 .icons{
     padding: 7px;
 }
