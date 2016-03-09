@@ -1,6 +1,6 @@
-$(document).ready(function () {
-    
-    "use strict";
+var content = document.getElementById("current-skills");
+
+content.addEventListener("mouseover",function () {
     
         $('.zoom').hover(function (x) {
             var getEl = $(x.target);
@@ -14,7 +14,7 @@ $(document).ready(function () {
             $(this).removeClass('transition');
             $(this).addClass('faded');
     });
-});
+}, false);
 
 
 function insert (id){

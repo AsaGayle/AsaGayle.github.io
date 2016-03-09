@@ -45,6 +45,15 @@ a:visited{
 #title-word{
     font-size: 60px;
 }
+
+#profile{
+    width: 350px;
+    height: 350px;
+    border-radius: 180px;
+    border:solid white 7px;
+    margin-top: -110px;
+    position: relative;
+}
 /********************
         BODY
 ********************/
