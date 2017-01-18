@@ -34,16 +34,18 @@ a:visited{
     z-index: -2;
     background-color: #000;
     background: url(../img/CityBG.jpg) top;
+    border-bottom: solid #fff 9px;
 }
 #head-text{
     text-align: center;
     width: 100%;
     position: absolute;
-    margin-top: -200px;
+    margin-top: -215px;
     color: #fff;
 }
 #title-word{
     font-size: 60px;
+    border: solid 5px;
 }
 
 #profile{
