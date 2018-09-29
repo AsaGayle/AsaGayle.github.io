@@ -1,112 +1,41 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <head>
     <title>asagayle.com</title>
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata|Oswald|Bowlby+One+SC|Abel' rel='stylesheet' type='text/css'>
-    <link href ="css/main.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
-    <link href="css/icons.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata|Oswald' rel='stylesheet' type='text/css'>
+    <style>
+        #resume-button{
+            width: 300px;
+            height: 50px;
+            font-size: 20px;
+            background-color: #181818  ;
+            border-radius: 180px;
+            border:none;
+            color: #fff;
+            cursor:pointer;hand;
+        }
+    </style>
 </head>
 <body>
-    <div id = 'header'></div>
-    <div id = 'head-text' class = 'Oswald'>
-        <p>
-            <span id="title-word">Hello, I'm Asa</span>
-        </p>
+    <div style="font-family: Inconsolata; font-size: 25px; text-align: center; margin-top: 20%;">
+        Sorry! Site's currently being updated! Have a look at my resume in the mean time though!
     </div>
-    
-    <div id = 'body-content'>
-        <img src="img/face.jpg" id="profile">
-        <div class = 'body-words Inconsolata'>Hello, everyone! <br>
-            I am Asa Gayle, a recent graduate of Florida A&amp;M University (April 2016) with an education
-            focusing in Computer Science. <br>
-            I have a large interest in software engineering and web development
-            and have a very large drive to learn new technologies! <br> 
-            I'm currently looking either for full time employment or to further my education by pursuing a Master's in Computer Science next year!
-            
-        </div>
-       <a href="AsaGayle_Resume_DEC2016.docx" download="AsaGayle_Resume_DEC2016.docx">
-        <button id="resume-button" class="Oswald noselect">Resume</button>
+    <div style="margin: 0 auto; width: 25%;">
+        <a href="AsaGayle_Resume_SEPT2018.pdf" target="_blank" style="text-align: center;">
+            <button id="resume-button" style="font-family: Oswald">Resume</button>
         </a>
-            <br>
-        <div id='current-skills'>
-        <p class='Inconsolata sub-header'>Current Skillset</p>
-            <div class='current-item'><img src="img/c_0.png" class="zoom faded" id="C++"></div>
-            <div class='current-item'><img src="img/python-logo.png" class="zoom faded" id="python"></div>
-            <div class='current-item'><img src="img/MySQL%20logo%20png.png" class="zoom faded" id="mySQL"></div>
-            <div class='current-item'><img src="img/HTML5_Logo_512.png" class="zoom faded" id="HTML"></div>
-            <div class='current-item'><img src="img/CSS3.png" class="zoom faded" id="CSS"></div>
-            <div class='current-item'><img src="img/js.sh-600x600.png" class="zoom faded" id="JavaScript"></div>
-            
-        </div>
-        
-         <div class='language-info-box'></div> 
-        <div class='body-words Inconsolata'>
-            
-        <p class='Inconsolata sub-header'>Coursework</p>
-            <span class='course-title'>Florida A&amp;M University</span>
-            <ul class='course-list'>
-                <li>COP 3014C Fundamentals of Programming</li>
-                <li>COP 3330 - Object Oriented Programming</li>
-                <li>COP 3530 - Program, File and Data Structures</li>
-                <li>COT 3100 - Discrete Structures I</li>
-                <li>COP 3710 - Database Management Systems</li>
-                <li>COP 3828 - Web Programming &amp; Design</li>
-            </ul>
-            
-            <span class='course-title'>Independent Coursework</span>
-            <ul class='course-list'>
-                <li>Learn Python - In Progress - Teamtreehouse.com</li>
-                 <li>Full Stack JavaScript - In Progress - Teamtreehouse.com</li>
-                <li>JavaScript - Completed - Codeacademy.com</li>
-                <li>jQuery - Completed - Codeacademy.com</li>
-                <li>HTML &amp; CSS - Completed - Codeacademy.com</li>
-               
-            </ul>
-        </div>
-        
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
-        <script type="text/javascript" src="js/content.js"></script>
-        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
-        
     </div>
-  <footer>
-            <br>
-            <div class="Abel footer-text">
-                Stay connected with me!
-            </div>
-            <div class="icon-box">
-                <!--- Facebook ICON -->
-                    <a href="https://www.facebook.com/aamgayle"  id="face" target="_blank">
-                        <div class = "no-fade icon-facebook icons"></div>
-                    </a>
-                <!--- twitter ICON -->
-                    <a href="https://twitter.com/aamgayle" id="twit" target="_blank">
-                        <div class = "no-fade icon-twitter icons"></div>
-                    </a>
-                <!--- linkedIn ICON -->
-                    <a href="https://www.linkedin.com/profile/view?id=369040745&trk=nav_responsive_tab_profile" id = "linked" target="_blank">
-                        <div class = "no-fade icon-linkedin icons"></div>
-                    </a>
-                <!--- github ICON -->
-                    <a href="https://github.com/AsaGayle" id="git" target="_blank">
-                        <div class = "no-fade icon-github icons"></div>
-                    </a>
-                      <!--- github ICON -->
-                    <a href="mailto:azmatch.gayle@yahoo.com" id="mail">
-                        <div class = "no-fade icon-envelope icons"></div>
-                    </a>
-            </div>
+    <script>
+        var button = document.getElementById("resume-button");
 
-            <div class = "footer-text Abel">
-                Built with love and care using
-                <a href="http://elusiveicons.com/" id ="elusive-text"> Elusive icons</a>
-            </div>
-            <div class = "footer-text Abel">
-                IDE of choice:
-                <a href="https://atom.io" id = "atom-text">Github Atom</a>
-            </div>
-            <div class = "footer-text Abel">Copyright &copy; Asa Gayle</div>
-        </footer>
-    
+        button.addEventListener("click", function(){
+            this.innerHTML = this.innerHTML.replace("Resume","Here you go!");
+            
+            setTimeout(changeText, 2000);
+            }
+        );
+        
+        function changeText(){
+          button.innerHTML = button.innerHTML.replace("Here you go!", "Resume");
+        };
+    </script>
 </body>
